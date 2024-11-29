@@ -1,0 +1,116 @@
+body {
+    font-family: 'Roboto', sans-serif;
+    line-height: 1.6;
+}
+header {
+    background: #304562;
+	font-family: 'Montserrat', sans-serif;
+    font-weight: 800; 
+    font-size: 2.5rem;
+    color: white;
+    text-align: center;
+}
+footer {
+    background: #002244;
+    color: white;
+}
+.card {
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+.card-text, .list-group-item {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400; 
+    font-size: 1rem;
+    color: #333; 
+}
+nav {
+	background: #5795CE;
+}
+.nav-link {
+	color: white;
+	font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
+    font-size: 1rem;
+	
+}
+.navbar-brand {
+	color: white;
+}
+.navbar {
+    justify-content: center;
+}
+
+.navbar-nav {
+    justify-content: center;
+    width: 100%;
+}
+
+.navbar-brand {
+     
+	justify-content: center;
+
+}
+.navbar-nav {
+    justify-content: center;
+    width: 100%;
+}
+
+.nav-link.navbar-brand {
+    font-weight: bold;
+    text-align: center;
+}
+
+.navbar {
+    justify-content: center;
+}
+.nav-link {
+    font-size: 1rem;
+    font-weight: normal; 
+    text-transform: none;
+}
+
+.navbar-nav {
+    justify-content: center;
+    width: 100%;
+}
+html, body {
+    height: 100%;
+    margin: 0;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+}
+
+main {
+    flex: 1;
+}
+
+footer {
+	font-family: 'Montserrat', sans-serif;
+    font-weight: 500; 
+    font-size: 0.85rem;
+    background-color: #5795CE;
+    text-align: center;
+    padding: 10px;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}
+.dropdown-menu {
+    background-color: #304562;
+    border: none;
+}
+.dropdown-item {
+    color: white;
+    transition: color 0.3s ease-in-out;
+	font-family: 'Montserrat', sans-serif;
+    font-weight: 500;
+    font-size: 0.9rem;
+}
+.dropdown-item:hover {
+    color: #5795CE;
+    background-color: transparent;
+}
+
